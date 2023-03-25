@@ -1,0 +1,16 @@
+.button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: rgb(217, 97, 97);
+    border: 0;
+    color: white;
+    border-radius: 60px;
+    font-size: 30px;
+    width: 200px;
+    font-weight: 300;
+    transition: font-size 1s ease-in-out, background-color 1s ease-in-out;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s,0s;
+    transition-property: background-color;
+}

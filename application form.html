@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Landing Page </title>
+    <link rel="stylesheet" href="button.css">
+    <style>
+      /* Styles for the form */
+      body{
+        background-color: rgb(229, 229, 229);
+        font-family: Arial, Tahoma;
+      }
+      fieldset {
+        width: 800px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 3px solid rgb(177, 175, 175);
+        font-family: Arial, sans-serif;
+        background-color: white;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(74, 72, 72);
+        font-style: italic;
+        font-variant-caps: all-petite-caps;
+        display: block;
+        font-weight: bold;
+
+      }
+      legend{
+        border: 3px solid rgb(175, 167, 167);
+        background-color: white;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        font-style: italic;
+        color: rgb(85, 85, 222);
+        margin-bottom: 20px;
+        display: block;
+
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: rgb(110, 110, 232);
+        font-family: Arial, Tahoma;
+        font-weight: lighter;
+      }
+      input[type="text"], input[type="password"], input[type="email"], select {
+        display: block;
+        padding-top: 7px;
+        padding-left: 10px;
+        border: 2px solid #ccc;
+        padding: 1px 2px;
+        margin: 0px 0px 30px 0px;
+        width: 300px;
+        height: 25px;
+        font-family: Arial, Tahoma;
+      }
+      input[type="submit" ]{
+        appearance: auto;
+        user-select: none;
+        text-align: center;
+        cursor: default;
+        box-sizing: border-box;
+
+      }
+      button:hover{
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> APPLICATION FORM ! </h1>
+    <form>
+    <fieldset>
+      <!-- Personal Information Section -->
+      <legend>Personal Information</legend>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Type your username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Type your password" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Type your email" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="" disabled selected>Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      </fieldset>
+      <!-- Section 2 -->
+      <fieldset>
+        <legend> Your Favourites </legend>
+        <label> What language you want to learn the most?</label>
+        <label>
+            <input type="radio" name="q1" value="html">
+            HTML
+          </label>
+          <label>
+            <input type="radio" name="q1" value="css" >
+            CSS
+          </label>
+          <label>
+            <input type="radio" name="q1" value="javascript">
+            JavaScript
+          </label>  
+      </fieldset>
+      <!-- Section 3 -->
+      <fieldset>
+      <legend> Your Message </legend>
+      <label> Describe Your Self Here </label>
+      <textarea class="box" placeholder="Start Typing..."></textarea>
+      </fieldset>
+      <!-- Section 4 -->
+      <fieldset>
+        <legend> Send Answers </legend>
+        <input type="checkbox">
+        <label for="Gender"> Remember My Answers </label>
+        <br>
+        <input class="button"type="submit" name="submit" value="submit">
+      </fieldset>
+      </form>
+      
+
+      
+    
+  </body>
+</html>

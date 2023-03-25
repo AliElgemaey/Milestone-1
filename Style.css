@@ -1,0 +1,93 @@
+.hyperlinks{
+    display: flex;
+    justify-content: center;
+
+}
+.home{
+    background-color: white;
+    color: rgb(72, 72, 183);
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.table{
+    background-color: rgb(96, 96, 204);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.apply{
+    background-color: white;
+    color: rgb(72, 72, 183);
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.fancy{
+    background-color: rgb(96, 96, 204);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.section1{
+    background-color: rgb(153, 226, 226);
+    padding-bottom: 60px;
+    display: block;
+}
+.heading1{
+    background: linear-gradient(to left,rgb(103, 215, 215),rgb(66, 66, 218) );
+    padding: 10px,10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 50px;
+    display: block;
+}
+.section2{
+    background-color: rgb(236, 191, 191);
+    padding-bottom: 30px;
+    display: block;
+}
+.heading2{
+    background: linear-gradient(135deg, rgb(204, 100, 100), rgb(120, 2, 120));
+    padding: 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    display: block;
+}
+.table1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-color: gray;
+    border-spacing: 2px;
+    text-indent: initial;
+}
+.section3{
+    background-color: rgb(235, 235, 183);
+
+}
+.heading3{
+    background: linear-gradient(to left, limegreen, rgb(51, 194, 134));
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    display: block;
+}
